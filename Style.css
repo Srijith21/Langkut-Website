@@ -1135,3 +1135,563 @@ ul li{
     color: #898989;
     margin: 8px 0;
 }
+
+/* ------------------------------------------------------------------1280px responsive-----spotlight-----*/
+@media all and (max-width: 1280px){
+    #products{}
+
+    .container.products{}
+    .product-top-section{
+        text-align: center;
+        height: 220px;
+    }
+    .smallheads{
+        color: #FE9A52;
+    }
+    .product-top-section h3{
+        font-size: 40px;
+        width: 30%;
+        margin:25px auto;
+    }
+    .product-bottom-section{
+    }
+    .product-bottom-section-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-bottom-section-ul li{
+        width: 30%;
+        height: auto;
+    }
+    .product-li-top{
+        background:#d6dbde;
+        height: 315px;
+        padding: 25px;
+        text-align: center;
+    }
+    .transaction-qrcode{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .medium-transaction-icons{
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+    .transaction-icon-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .transaction-icon-box.small{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .small-transaction-icons{
+        width: 80px;
+        margin: 8px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 17px;
+    }
+    .product-li-bottom{
+        height: 250px;
+        padding: 25px;
+    }
+    .product-li-bottom h5{
+        font-size: 32px;
+        margin: 5px 0;
+    }
+    .product-li-bottom p{
+        font-size: 15px;
+        color: #898989;
+        margin: 13px 0 5px;
+    }
+       
+}
+/* ------------------------------------------------------------------980px responsive-----spotlight-----*/
+@media all and (max-width: 980px){
+    #products{}
+
+    .container.products{}
+    .product-top-section{
+        text-align: center;
+        height: 220px;
+    }
+    .smallheads{
+        color: #FE9A52;
+    }
+    .product-top-section h3{
+        font-size: 40px;
+        width: 40%;
+        margin:25px auto;
+    }
+    .product-bottom-section{
+    }
+    .product-bottom-section-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-bottom-section-ul li{
+        width: 30%;
+        height: auto;
+    }
+    .product-li-top{
+        background:#d6dbde;
+        height: 250px;
+        padding: 25px;
+        text-align: center;
+    }
+    .transaction-qrcode{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .medium-transaction-icons{
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+    .transaction-icon-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .transaction-icon-box.small{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .small-transaction-icons{
+        width: 55px;
+        margin: 8px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 17px;
+    }
+    .product-li-bottom{
+        height: 250px;
+        padding: 25px;
+    }
+    .product-li-bottom h5{
+        font-size: 23px;
+        margin: 5px 0;
+    }
+    .product-li-bottom p{
+        font-size: 13px;
+        color: #898989;
+        margin: 13px 0 5px;
+    }
+       
+}
+/* ------------------------------------------------------------------768px responsive-----spotlight-----*/
+@media all and (max-width: 768px){
+    #products{}
+
+    .container.products{}
+    .product-top-section{
+        text-align: center;
+        height: 220px;
+    }
+    .smallheads{
+        color: #FE9A52;
+    }
+    .product-top-section h3{
+        font-size: 40px;
+        width: 60%;
+        margin:25px auto;
+    }
+    .product-bottom-section{
+    }
+    .product-bottom-section-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-bottom-section-ul li{
+        width: 30%;
+        height: auto;
+    }
+    .product-li-top{
+        background:#d6dbde;
+        height: 160px;
+        padding: 25px;
+        text-align: center;
+    }
+    .transaction-qrcode{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .medium-transaction-icons{
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+    .transaction-icon-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .transaction-icon-box.small{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .small-transaction-icons{
+        width: 33px;
+        margin: 8px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .product-li-bottom{
+        height: 250px;
+        padding: 25px;
+    }
+    .product-li-bottom h5{
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    .product-li-bottom p{
+        font-size: 10px;
+        color: #898989;
+        margin: 13px 0 5px;
+    }
+       
+}
+/* ------------------------------------------------------------------640px responsive-----spotlight-----*/
+@media all and (max-width: 640px){
+    #products{}
+
+    .container.products{}
+    .product-top-section{
+        text-align: center;
+        height: 220px;
+    }
+    .smallheads{
+        color: #FE9A52;
+    }
+    .product-top-section h3{
+        font-size: 40px;
+        width: 60%;
+        margin:25px auto;
+    }
+    .product-bottom-section{
+    }
+    .product-bottom-section-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-bottom-section-ul li{
+        width: 30%;
+        height: auto;
+    }
+    .product-li-top{
+        background:#d6dbde;
+        height: 120px;
+        padding: 25px;
+        text-align: center;
+    }
+    .transaction-qrcode{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .medium-transaction-icons{
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+    .transaction-icon-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .transaction-icon-box.small{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .small-transaction-icons{
+        width: 25px;
+        margin: 8px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 7px;
+    }
+    .product-li-bottom{
+        height: 250px;
+        padding: 25px;
+    }
+    .product-li-bottom h5{
+        font-size: 12px;
+        margin: 5px 0;
+    }
+    .product-li-bottom p{
+        font-size: 7px;
+        color: #898989;
+        margin: 13px 0 5px;
+    }
+       
+}
+/* ------------------------------------------------------------------480px responsive-----spotlight-----*/
+@media all and (max-width: 480px){
+    #products{}
+
+    .container.products{}
+    .product-top-section{
+        text-align: center;
+        height: auto;
+    }
+    .smallheads{
+        color: #FE9A52;
+    }
+    .product-top-section h3{
+        font-size: 30px;
+        width: 90%;
+        margin:25px auto;
+    }
+    .product-bottom-section{
+    }
+    .product-bottom-section-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-bottom-section-ul li{
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+    .product-li-top{
+        background:#d6dbde;
+        height: 250px;
+        padding: 25px;
+        text-align: center;
+    }
+    .transaction-qrcode{
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+    .medium-transaction-icons{
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+    .transaction-icon-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .transaction-icon-box.small{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .small-transaction-icons{
+        width: 100px;
+        margin: 8px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 7px;
+    }
+    .product-li-bottom{
+        height: auto;
+        padding: 25px;
+    }
+    .product-li-bottom h5{
+        font-size: 25px;
+        margin: 5px 0;
+    }
+    .product-li-bottom p{
+        font-size: 13px;
+        color: #898989;
+        margin: 13px 0 5px;
+    }
+       
+}
+/* ------------------------------------------------------------------360px responsive-----spotlight-----*/
+@media all and (max-width: 360px){
+    #products{}
+
+    .container.products{}
+    .product-top-section{
+        text-align: center;
+        height: auto;
+    }
+    .smallheads{
+        color: #FE9A52;
+    }
+    .product-top-section h3{
+        font-size: 30px;
+        width: 90%;
+        margin:25px auto;
+    }
+    .product-bottom-section{
+    }
+    .product-bottom-section-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-bottom-section-ul li{
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+    .product-li-top{
+        background:#d6dbde;
+        height: 200px;
+        padding: 25px;
+        text-align: center;
+    }
+    .transaction-qrcode{
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+    .medium-transaction-icons{
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+    .transaction-icon-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .transaction-icon-box.small{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .small-transaction-icons{
+        width: 60px;
+        margin: 8px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 7px;
+    }
+    .product-li-bottom{
+        height: auto;
+        padding: 25px;
+    }
+    .product-li-bottom h5{
+        font-size: 22px;
+        margin: 5px 0;
+    }
+    .product-li-bottom p{
+        font-size: 11px;
+        color: #898989;
+        margin: 13px 0 5px;
+    }
+       
+}
+
+/* ------------------------------------------------------------------320px responsive-----spotlight-----*/
+@media all and (max-width: 320px){
+    #products{}
+
+    .container.products{}
+    .product-top-section{
+        text-align: center;
+        height: auto;
+    }
+    .smallheads{
+        color: #FE9A52;
+        font-size: 13px;
+    }
+    .product-top-section h3{
+        font-size: 25px;
+        width: 100%;
+        margin:25px auto;
+    }
+    .product-bottom-section{
+    }
+    .product-bottom-section-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-bottom-section-ul li{
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+    .product-li-top{
+        background:#d6dbde;
+        height: 150px;
+        padding: 25px;
+        text-align: center;
+    }
+    .transaction-qrcode{
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+    .medium-transaction-icons{
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+    .transaction-icon-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .transaction-icon-box.small{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .small-transaction-icons{
+        width: 40px;
+        margin: 8px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 7px;
+    }
+    .product-li-bottom{
+        height: auto;
+        padding: 25px;
+    }
+    .product-li-bottom h5{
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    .product-li-bottom p{
+        font-size: 9px;
+        color: #898989;
+        margin: 13px 0 5px;
+    }
+       
+}
+
