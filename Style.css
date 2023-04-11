@@ -1,0 +1,1137 @@
+@font-face {
+    font-family: "Gordita-Bold";
+    src: url(./Assets/fonts/Gordita/Gordita\ Bold.woff) format("woff");
+  }
+@font-face {
+    font-family: "Gordita";
+    src: url(./Assets/fonts/Gordita/Gordita\ Regular.woff) format("woff");
+  }
+h1{
+    font-family:Gordita-Bold;
+}
+*{
+    font-family: Gordita;
+}
+a{
+    font-family: Gordita;
+    text-decoration: none;
+}
+p{
+    font-family: Gordita;
+    line-height: 1.5rem;
+}
+ul{
+    padding: 0;
+    margin: auto;
+}
+ul li{
+    list-style: none;
+    
+}
+.container {
+    width: 90%;
+    margin: auto;
+  }
+.keyword{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    color: #8873EF;
+    font-size: 20px;
+    transform: rotate(-22deg);
+    font-family: Gordita;
+}
+/* ///////////////////////////////////////////////////////////////////////////<-- header-bar --> */
+#header-bar{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 0 auto;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.navbar ul li{
+    margin:0 15px ;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul li a{
+    color: #555;
+    font-weight: bold;
+    position: relative;
+}
+.navbar ul li a:active{
+    color: black;
+}
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+    
+}
+
+.signing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+.signing a{
+    color: #1F6BFF;
+}
+.sign-in{
+    margin: auto;
+}
+
+.sign-up{
+    margin: 0 15px;
+    background: #1F6BFF;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.sign-up a{
+    color: #fff;
+}
+/* ------------------------------------------------------------------980px responsive-----Header-----*/
+
+@media all and (max-width: 980px) {
+    #header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        padding: 0 auto;
+    }
+    .logo{
+        display: block;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .navbar ul li{
+        margin:0 10px ;
+        list-style: none;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .navbar ul li a{
+        color: #000;
+        font-weight: bold;
+        position: relative;
+    }
+    .navbar ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition:0.5s;
+    }
+    .navbar ul li a:hover::after{
+        width: 100%;
+        
+    }
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+    
+    }
+    .signing a{
+        color: #1F6BFF;
+        font-size: 12px;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 12px;
+        background: #1F6BFF;
+        border-radius: 5px;
+        padding: 10px 30px;
+    }
+    .sign-up a{
+        color: #fff;
+        font-size: 12px;
+    } 
+}
+/* ------------------------------------------------------------------768px responsive-----Header-----*/
+@media all and (max-width: 768px) {
+    #header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        padding: 0 auto;
+    }
+    .logo{
+        display: block;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .navbar ul li{
+        margin:0 10px ;
+        list-style: none;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .navbar ul li a{
+        color: #000;
+        font-weight: bold;
+        position: relative;
+    }
+    .navbar ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition:0.5s;
+    }
+    .navbar ul li a:hover::after{
+        width: 100%;
+    }
+    .navbar ul li a:active{
+        color: red;
+    }
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+    
+    }
+    .signing a{
+        color: #1F6BFF;
+        font-size: 12px;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 12px;
+        background: #1F6BFF;
+        border-radius: 5px;
+        padding: 10px 30px;
+    }
+    .sign-up a{
+        color: #fff;
+        font-size: 12px;
+    }  
+}
+/* ------------------------------------------------------------------640px responsive-----Header-----*/
+@media all and (max-width: 640px) {
+    #header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        padding: 0 auto;
+    }
+    .logo{
+        display: block;
+    }
+    .header-logo{
+       width: 50%; 
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .navbar ul li{
+        margin:0 10px ;
+        list-style: none;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .navbar ul li a{
+        color: #000;
+        font-weight: bold;
+        position: relative;
+    }
+    .navbar ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition:0.5s;
+    }
+    .navbar ul li a:hover::after{
+        width: 100%;
+        
+    }
+    
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+    
+    }
+    .signing a{
+        color: #1F6BFF;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 15px;
+        border-radius: 5px;
+        padding: 8px 20px;
+    }   
+    .sign-up a{
+        color: #fff;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Header-----*/
+@media all and (max-width: 480px) {
+    #header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        margin:  auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 0 0 10px 0;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px  auto;
+        width: 90%;
+    }
+    .header-logo{
+        width: 70%;
+        margin: auto;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        padding: 0;
+    }
+    .navbar ul li{
+        margin: 0;
+    }
+    .navbar ul li a{
+        margin:auto 10px;
+        font-size: 10px;
+    }
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        width: 40%;
+        margin: auto;
+        padding: 0;
+    }
+    .signing a{
+        color: #1F6BFF;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 15px;
+        border-radius: 5px;
+    }   
+    .sign-up a{
+        color: #fff;
+        padding: 0;
+    }  
+}
+/* ------------------------------------------------------------------360px responsive-----Header-----*/
+@media all and (max-width: 360px) {
+    #header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        margin:  auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 0 0 10px 0;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px  auto;
+        width: 90%;
+    }
+    .header-logo{
+        width: 70%;
+        margin: auto;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        padding: 0;
+    }
+    .navbar ul li{
+        margin: 0;
+    }
+    .navbar ul li a{
+        margin:auto 10px;
+        font-size: 8px;
+    }
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        width: 40%;
+        margin: auto;
+        padding: 0;
+    }
+    .signing a{
+        color: #1F6BFF;
+        font-size: 8px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 15px;
+        border-radius: 5px;
+        padding: 5px;
+    }   
+    .sign-up a{
+        color: #fff;
+        padding: 0;
+    }  
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Spotlight --> */
+
+#spotlight{
+    margin: 100px auto;
+}
+.container.spotlight{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left-spotlight{
+    width: 40%;
+}
+.left-spotlight h6{
+    font-size: 18px;
+    color: #FE9A52;
+}
+.left-spotlight h1{
+    font-size: 50px;
+    font-family: Gordita;
+}
+.left-spotlight p{
+    font-size: 15px;
+    color: #898989;
+}
+.username-box-spotlight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #faf9f9;
+    padding: 15px;
+}
+.username-box-spotlight-left{
+}
+.username-box-spotlight-left p{
+    font-size: 12px;
+    color: #605d5d;
+    margin: 0;
+}
+.username-box-spotlight-left h6{
+    font-size: 20px;
+    color: #000;
+    margin: 5px auto;
+}
+.username-box-spotlight-right{}
+.username-box-spotlight-right button{
+    padding: 20px 35px;
+    background: #1F6BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.payment-options-spotlight{}
+.payment-options-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0;
+}
+.payment-options-ul li{
+    width: 15%;
+    margin: auto;
+}
+.payment-options-ul li img{
+    width: 100%;
+    height: auto;
+}
+
+.right-spotlight{
+    width: 40%;
+}
+.right-spotlight-img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+/* ------------------------------------------------------------------980px responsive-----spotlight-----*/
+@media all and (max-width: 980px){
+    #spotlight{
+        margin: 100px auto;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .left-spotlight{
+        width: 40%;
+    }
+    .left-spotlight h6{
+        font-size: 18px;
+        color: #FE9A52;
+        margin: 10px 0;
+    }
+    .left-spotlight h1{
+        font-size: 40px;
+        font-family: Gordita;
+    }
+    .left-spotlight p{
+        font-size: 12px;
+        color: #898989;
+    }
+    .username-box-spotlight{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #faf9f9;
+        padding: 15px;
+    }
+    .username-box-spotlight-left{
+    }
+    .username-box-spotlight-left p{
+        font-size: 12px;
+        color: #605d5d;
+        margin: 0;
+    }
+    .username-box-spotlight-left h6{
+        font-size: 20px;
+        color: #000;
+        margin: 5px auto;
+    }
+    .username-box-spotlight-right{}
+    .username-box-spotlight-right button{
+        padding: 15px 25px;
+        background: #1F6BFF;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .payment-options-spotlight{}
+    .payment-options-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .payment-options-ul li{
+        width: 15%;
+        margin: auto;
+    }
+    .payment-options-ul li img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .right-spotlight{
+        width: 40%;
+    }
+    .right-spotlight-img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----spotlight-----*/
+@media all and (max-width: 768px){
+    #spotlight{
+        margin: 100px auto;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .left-spotlight{
+        width: 50%;
+    }
+    .left-spotlight h6{
+        font-size: 13px;
+        color: #FE9A52;
+        margin: 10px 0;
+    }
+    .left-spotlight h1{
+        font-size: 35px;
+        font-family: Gordita;
+    }
+    .left-spotlight p{
+        font-size: 12px;
+        color: #898989;
+    }
+    .username-box-spotlight{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #faf9f9;
+        padding: 15px;
+    }
+    .username-box-spotlight-left{
+    }
+    .username-box-spotlight-left p{
+        font-size: 12px;
+        color: #605d5d;
+        margin: 0;
+    }
+    .username-box-spotlight-left h6{
+        font-size: 18px;
+        color: #000;
+        margin: 5px auto;
+    }
+    .username-box-spotlight-right{}
+    .username-box-spotlight-right button{
+        padding: 13px 25px;
+        background: #1F6BFF;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .payment-options-spotlight{}
+    .payment-options-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .payment-options-ul li{
+        width: 15%;
+        margin: auto;
+    }
+    .payment-options-ul li img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .right-spotlight{
+        width: 40%;
+    }
+    .right-spotlight-img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----spotlight-----*/
+@media all and (max-width: 640px){
+    #spotlight{
+        margin: 100px auto;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .left-spotlight{
+        width: 50%;
+    }
+    .left-spotlight h6{
+        font-size: 10px;
+        color: #FE9A52;
+        margin: 10px 0;
+    }
+    .left-spotlight h1{
+        font-size: 30px;
+        font-family: Gordita;
+    }
+    .left-spotlight p{
+        font-size: 9px;
+        color: #898989;
+    }
+    .username-box-spotlight{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #faf9f9;
+        padding: 15px;
+    }
+    .username-box-spotlight-left{
+    }
+    .username-box-spotlight-left p{
+        font-size: 9px;
+        color: #605d5d;
+        margin: 0;
+    }
+    .username-box-spotlight-left h6{
+        font-size: 13px;
+        color: #000;
+        margin: 5px auto;
+    }
+    .username-box-spotlight-right{}
+    .username-box-spotlight-right button{
+        padding: 13px 25px;
+        background: #1F6BFF;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+    .payment-options-spotlight{}
+    .payment-options-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .payment-options-ul li{
+        width: 15%;
+        margin: auto;
+    }
+    .payment-options-ul li img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .right-spotlight{
+        width: 40%;
+    }
+    .right-spotlight-img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----spotlight-----*/
+@media all and (max-width: 480px){
+    #spotlight{
+        margin: 100px auto;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .left-spotlight{
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+    }
+    .left-spotlight h6{
+        font-size: 10px;
+        color: #FE9A52;
+        margin: 10px 0;
+    }
+    .left-spotlight h1{
+        font-size: 25px;
+        font-family: Gordita;
+    }
+    .left-spotlight p{
+        font-size: 9px;
+        color: #898989;
+    }
+    .username-box-spotlight{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #faf9f9;
+        padding: 15px;
+    }
+    .username-box-spotlight-left{
+    }
+    .username-box-spotlight-left p{
+        font-size: 9px;
+        color: #605d5d;
+        margin: 0;
+    }
+    .username-box-spotlight-left h6{
+        font-size: 13px;
+        color: #000;
+        margin: 5px auto;
+    }
+    .username-box-spotlight-right{}
+    .username-box-spotlight-right button{
+        padding: 13px 25px;
+        background: #1F6BFF;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+    .payment-options-spotlight{}
+    .payment-options-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .payment-options-ul li{
+        width: 15%;
+        margin: auto;
+    }
+    .payment-options-ul li img{
+        width: 100%;
+        height: auto;
+    }
+    .right-spotlight{
+        width: 100%;
+    }
+    .right-spotlight-img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----spotlight-----*/
+@media all and (max-width: 360px){
+    #spotlight{
+        margin: 100px auto;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .left-spotlight{
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+    }
+    .left-spotlight h6{
+        font-size: 10px;
+        color: #FE9A52;
+        margin: 10px 0;
+    }
+    .left-spotlight h1{
+        font-size: 25px;
+        font-family: Gordita;
+    }
+    .left-spotlight p{
+        font-size: 9px;
+        color: #898989;
+    }
+    .username-box-spotlight{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #faf9f9;
+        padding: 5px;
+    }
+    .username-box-spotlight-left{
+    }
+    .username-box-spotlight-left p{
+        font-size: 9px;
+        color: #605d5d;
+        margin: 0;
+    }
+    .username-box-spotlight-left h6{
+        font-size: 13px;
+        color: #000;
+        margin: 5px auto;
+    }
+    .username-box-spotlight-right{}
+    .username-box-spotlight-right button{
+        padding: 13px 25px;
+        background: #1F6BFF;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+    .payment-options-spotlight{}
+    .payment-options-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .payment-options-ul li{
+        width: 15%;
+        margin: auto;
+    }
+    .payment-options-ul li img{
+        width: 100%;
+        height: auto;
+    }
+    .right-spotlight{
+        width: 100%;
+    }
+    .right-spotlight-img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----spotlight-----*/
+@media all and (max-width: 320px){
+    #spotlight{
+        margin: 100px auto;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .left-spotlight{
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+    }
+    .left-spotlight h6{
+        font-size: 10px;
+        color: #FE9A52;
+        margin: 10px 0;
+    }
+    .left-spotlight h1{
+        font-size: 25px;
+        font-family: Gordita;
+    }
+    .left-spotlight p{
+        font-size: 9px;
+        color: #898989;
+    }
+    .username-box-spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        background: #faf9f9;
+        padding: 5px;
+        text-align: center;
+    }
+    .username-box-spotlight-left{
+        width: 100%;
+    }
+    .username-box-spotlight-left p{
+        font-size: 9px;
+        color: #605d5d;
+        margin: 0;
+    }
+    .username-box-spotlight-left h6{
+        font-size: 13px;
+        color: #000;
+        margin: 5px auto;
+    }
+    .username-box-spotlight-right{
+        width: 100%;
+    }
+    .username-box-spotlight-right button{
+        padding: 13px 25px;
+        background: #1F6BFF;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+    .payment-options-spotlight{}
+    .payment-options-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .payment-options-ul li{
+        width: 15%;
+        margin: auto;
+    }
+    .payment-options-ul li img{
+        width: 100%;
+        height: auto;
+    }
+    .right-spotlight{
+        width: 100%;
+    }
+    .right-spotlight-img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Products --> */
+#products{}
+
+.container.products{}
+.product-top-section{
+    text-align: center;
+    height: 220px;
+}
+.smallheads{
+    color: #FE9A52;
+}
+.product-top-section h3{
+    font-size: 40px;
+    width: 30%;
+    margin:25px auto;
+}
+.product-bottom-section{
+}
+.product-bottom-section-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-bottom-section-ul li{
+    width: 30%;
+    height: auto;
+}
+.product-li-top{
+    background:#d6dbde;
+    height: 315px;
+    padding: 25px;
+    text-align: center;
+}
+.transaction-qrcode{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.medium-transaction-icons{
+    width: 100%;
+    height: auto;
+    margin: 5px auto;
+}
+.transaction-icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.transaction-icon-box.small{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.small-transaction-icons{
+    width: 80px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.product-li-bottom{
+    height: 250px;
+    padding: 25px;
+}
+.product-li-bottom h5{
+    font-size: 35px;
+    margin: 5px 0;
+}
+.product-li-bottom p{
+    font-size: 17px;
+    color: #898989;
+    margin: 8px 0;
+}
