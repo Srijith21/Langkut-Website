@@ -2549,3 +2549,583 @@ ul li{
         width: 48%;
     }  
 }
+
+
+/* ///////////////////////////////////////////////////////////////////////////<-- testimonial --> */
+
+#testimonial{
+    margin: 25px auto;
+    background: #d6dbde;
+    height: auto;
+}
+.container.Testimonial{
+    width: 100%;
+}
+.testimonial-top{
+    text-align: center;
+    padding: 25px 0;
+}
+.testimonial-top h3{
+    font-size: 42px;
+    margin: 15px 0;
+    padding: 0;
+}
+.testimonial-top p{
+    font-size: 15px;
+    color: #898989;
+    width: 45%;
+    margin:0 auto;
+    padding: 0;
+}
+
+.testimonial-bottom{}
+.testimonial-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+    padding: 5px;
+}
+.testimonial-bottom ul li{
+    width: 21%;
+    height: auto;
+    background:#fff;
+    border-radius: 25px;
+    padding: 20px;
+}
+.testimonial-bottom-company-img{
+    width: 60%;
+    height: 75px;
+    margin: 0;
+}
+.testimonial-bottom ul li p{
+    color: #898989;
+    font-size: 15px;
+    margin: 25px 0;
+}
+.profile-details-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px auto;
+}
+.profile-img{
+    width: 50px;
+    height: 50px;
+}
+.profile-detail{
+    width: auto;
+    margin: auto;
+}
+.profile-detail h5{
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+.profile-detail h6{
+    font-size: 13px;
+    color: #898989;
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------------------------------------------------1280px responsive-----Testimonial-----*/
+@media all and (max-width: 1280px){
+    #testimonial{
+        margin: 25px auto;
+        background: #d6dbde;
+        height: auto;
+    }
+    .container.Testimonial{
+        width: 100%;
+    }
+    .testimonial-top{
+        text-align: center;
+        padding: 25px 0;
+    }
+    .testimonial-top h3{
+        font-size: 42px;
+        margin: 15px 0;
+        padding: 0;
+    }
+    .testimonial-top p{
+        font-size: 15px;
+        color: #898989;
+        width: 45%;
+        margin:0 auto;
+        padding: 0;
+    }
+    
+    .testimonial-bottom{}
+    .testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px auto;
+        padding: 5px;
+    }
+    .testimonial-bottom ul li{
+        width: 21%;
+        height: auto;
+        background:#fff;
+        border-radius: 25px;
+        padding: 20px;
+    }
+    .testimonial-bottom-company-img{
+        width: 60%;
+        height: 65px;
+        margin: 0;
+    }
+    .testimonial-bottom ul li p{
+        color: #898989;
+        font-size: 13px;
+        margin: 25px 0;
+    }
+    .profile-details-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .profile-img{
+        width: 50px;
+        height: 50px;
+    }
+    .profile-detail{
+        width: auto;
+        margin: auto;
+    }
+    .profile-detail h5{
+        font-size: 11px;
+        padding: 0;
+        margin: 0;
+    }
+    .profile-detail h6{
+        font-size: 10px;
+        color: #898989;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+/* ------------------------------------------------------------------980px responsive-----Testimonial-----*/
+@media all and (max-width: 980px){
+    #testimonial{
+        margin: 25px auto;
+        background: #d6dbde;
+        height: auto;
+    }
+    .container.Testimonial{
+        width: 100%;
+    }
+    .testimonial-top{
+        text-align: center;
+        padding: 25px 0;
+    }
+    .testimonial-top h3{
+        font-size: 42px;
+        margin: 15px 0;
+        padding: 0;
+    }
+    .testimonial-top p{
+        font-size: 15px;
+        color: #898989;
+        width: 45%;
+        margin:0 auto;
+        padding: 0;
+    }
+    
+    .testimonial-bottom{}
+    .testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px auto;
+        padding: 5px;
+    }
+    .testimonial-bottom ul li{
+        width: 20%;
+        height: auto;
+        background:#fff;
+        border-radius: 25px;
+        padding: 10px;
+    }
+    .testimonial-bottom-company-img{
+        width: 60%;
+        height: 65px;
+        margin: 0;
+    }
+    .testimonial-bottom ul li p{
+        color: #898989;
+        font-size: 10px;
+        margin: 25px 0;
+    }
+    .profile-details-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .profile-img{
+        width: 40px;
+        height: 40px;
+    }
+    .profile-detail{
+        width: auto;
+        margin: auto;
+    }
+    .profile-detail h5{
+        font-size: 11px;
+        padding: 0;
+        margin: 0;
+    }
+    .profile-detail h6{
+        font-size: 10px;
+        color: #898989;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+/* ------------------------------------------------------------------768px responsive-----Testimonial-----*/
+@media all and (max-width: 768px){
+    #testimonial{
+        margin: 25px auto;
+        background: #d6dbde;
+        height: auto;
+    }
+    .container.Testimonial{
+        width: 100%;
+    }
+    .testimonial-top{
+        text-align: center;
+        padding: 25px 0;
+    }
+    .testimonial-top h3{
+        font-size: 42px;
+        margin: 15px 0;
+        padding: 0;
+    }
+    .testimonial-top p{
+        font-size: 15px;
+        color: #898989;
+        width: 85%;
+        margin:0 auto;
+        padding: 0;
+    }
+    
+    .testimonial-bottom{}
+    .testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 25px auto;
+        padding: 5px;
+    }
+    .testimonial-bottom ul li{
+        width: 40%;
+        height: auto;
+        background:#fff;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .testimonial-bottom-company-img{
+        width: 60%;
+        height: 65px;
+        margin: auto;
+    }
+    .testimonial-bottom ul li p{
+        color: #898989;
+        font-size: 10px;
+        margin: 25px 0;
+    }
+    .profile-details-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 15px auto;
+    }
+    .profile-img{
+        width: 40px;
+        height: 40px;
+    }
+    .profile-detail{
+        width: auto;
+        margin: auto;
+    }
+    .profile-detail h5{
+        font-size: 11px;
+        padding: 0;
+        margin: 0;
+    }
+    .profile-detail h6{
+        font-size: 10px;
+        color: #898989;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+/* ------------------------------------------------------------------640px responsive-----Testimonial-----*/
+@media all and (max-width: 640px){
+    #testimonial{
+        margin: 25px auto;
+        background: #d6dbde;
+        height: auto;
+    }
+    .container.Testimonial{
+        width: 100%;
+    }
+    .testimonial-top{
+        text-align: center;
+        padding: 25px 0;
+    }
+    .testimonial-top h3{
+        font-size: 42px;
+        margin: 15px 0;
+        padding: 0;
+    }
+    .testimonial-top p{
+        font-size: 15px;
+        color: #898989;
+        width: 100%;
+        margin:0 auto;
+        padding: 0;
+    }
+    
+    .testimonial-bottom{}
+    .testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 25px auto;
+        padding: 5px;
+    }
+    .testimonial-bottom ul li{
+        width: 40%;
+        height: auto;
+        background:#fff;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .testimonial-bottom-company-img{
+        width: 60%;
+        height: 65px;
+        margin: auto;
+    }
+    .testimonial-bottom ul li p{
+        color: #898989;
+        font-size: 9px;
+        margin: 15px 0;
+    }
+    .profile-details-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 15px auto;
+    }
+    .profile-img{
+        width: 35px;
+        height: 35px;
+    }
+    .profile-detail{
+        width: auto;
+        margin: auto;
+    }
+    .profile-detail h5{
+        font-size: 9px;
+        padding: 0;
+        margin: 0;
+    }
+    .profile-detail h6{
+        font-size: 8px;
+        color: #898989;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+/* ------------------------------------------------------------------480px responsive-----Testimonial-----*/
+@media all and (max-width: 480px){
+    #testimonial{
+        margin: 25px auto;
+        background: #d6dbde;
+        height: auto;
+    }
+    .container.Testimonial{
+        width: 100%;
+    }
+    .testimonial-top{
+        text-align: center;
+        padding: 25px 0;
+    }
+    .testimonial-top h3{
+        font-size: 38px;
+        margin: 15px 0;
+        padding: 0;
+    }
+    .testimonial-top p{
+        font-size: 12px;
+        color: #898989;
+        width: 100%;
+        margin:0 auto;
+        padding: 0;
+    }
+    
+    .testimonial-bottom{}
+    .testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 25px auto;
+        padding: 5px;
+    }
+    .testimonial-bottom ul li{
+        width: 40%;
+        height: auto;
+        background:#fff;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .testimonial-bottom-company-img{
+        width: 60%;
+        height: 65px;
+        margin: auto;
+    }
+    .testimonial-bottom ul li p{
+        color: #898989;
+        font-size: 9px;
+        margin: 15px 0;
+    }
+    .profile-details-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 15px auto;
+    }
+    .profile-img{
+        width: 35px;
+        height: 35px;
+        margin: 15px ;
+    }
+    .profile-detail{
+        width: auto;
+        margin: auto;
+    }
+    .profile-detail h5{
+        font-size: 9px;
+        padding: 0;
+        margin: 0;
+    }
+    .profile-detail h6{
+        font-size: 8px;
+        color: #898989;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+/* ------------------------------------------------------------------360px responsive-----Testimonial-----*/
+@media all and (max-width: 360px){
+    #testimonial{
+        margin: 25px auto;
+        background: #d6dbde;
+        height: auto;
+    }
+    .container.Testimonial{
+        width: 100%;
+    }
+    .testimonial-top{
+        text-align: center;
+        padding: 25px 0;
+    }
+    .testimonial-top h3{
+        font-size: 35px;
+        margin: 15px 0;
+        padding: 0;
+    }
+    .testimonial-top p{
+        font-size: 10px;
+        color: #898989;
+        width: 100%;
+        margin:0 auto;
+        padding: 0;
+    }
+    
+    .testimonial-bottom{}
+    .testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 25px auto;
+        padding: 5px;
+    }
+    .testimonial-bottom ul li{
+        width: 80%;
+        height: auto;
+        background:#fff;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .testimonial-bottom-company-img{
+        width: 60%;
+        height: 65px;
+        margin: auto;
+    }
+    .testimonial-bottom ul li p{
+        color: #898989;
+        font-size: 9px;
+        margin: 15px 0;
+    }
+    .profile-details-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 15px auto;
+    }
+    .profile-img{
+        width: 35px;
+        height: 35px;
+        margin: 15px ;
+    }
+    .profile-detail{
+        width: auto;
+        margin: auto;
+    }
+    .profile-detail h5{
+        font-size: 9px;
+        padding: 0;
+        margin: 0;
+    }
+    .profile-detail h6{
+        font-size: 8px;
+        color: #898989;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+
