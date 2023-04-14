@@ -112,6 +112,9 @@ ul li{
 .sign-up a{
     color: #fff;
 }
+.sidebar-button-div{
+    display: none;
+}
 #sidebar-button{
     display: none;
 }
@@ -577,6 +580,7 @@ ul li{
     border: none;
     border-radius: 10px;
     font-size: 12px;
+    font-weight: bold;
 }
 .payment-options-spotlight{}
 .payment-options-ul{
@@ -586,11 +590,12 @@ ul li{
     margin: 35px 0;
 }
 .payment-options-ul li{
-    width: 15%;
+    width: auto;
     margin: auto;
 }
 .payment-options-ul li img{
-    width: 100%;
+    margin: auto;
+    width: 75%;
     height: auto;
 }
 
@@ -1115,10 +1120,13 @@ ul li{
 }
 .product-li-top{
     background:#d6dbde;
-    height: 315px;
+    height: 340px;
     padding: 25px;
     text-align: center;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .transaction-qrcode{
     width: 80%;
@@ -1133,9 +1141,9 @@ ul li{
 .transaction-icon-box{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: auto;
+    margin:40px auto;
 }
 .transaction-icon-box.small{
     text-align: center;
@@ -1213,7 +1221,7 @@ ul li{
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: auto;
+        margin:40px auto;
     }
     .transaction-icon-box.small{
         text-align: center;
@@ -1292,7 +1300,8 @@ ul li{
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: auto;
+        margin:40px auto;
+
     }
     .transaction-icon-box.small{
         text-align: center;
@@ -1371,7 +1380,7 @@ ul li{
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: auto;
+        margin:40px auto;
     }
     .transaction-icon-box.small{
         text-align: center;
@@ -1379,8 +1388,8 @@ ul li{
         margin: auto;
     }
     .small-transaction-icons{
-        width: 33px;
-        margin: 8px;
+        width: 38px;
+        margin: 5px;
         background: #fff;
         border-radius: 10px;
         padding: 10px;
@@ -1450,7 +1459,7 @@ ul li{
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: auto;
+        margin:20px auto;
     }
     .transaction-icon-box.small{
         text-align: center;
@@ -2124,7 +2133,7 @@ ul li{
 
 /* ///////////////////////////////////////////////////////////////////////////<-- Products three--> */
 #products-three{
-    margin: 80px 0;
+    margin: 110px 0;
 }
 
 .container.products-three{
@@ -2422,7 +2431,7 @@ ul li{
         border-radius: 0px 80px 80px 0px;
         width: 75%;
         height: 330px;
-        margin: auto auto auto;
+        margin: auto auto auto 0;
         position: relative;
     }
     .mobile-mockup-image{
@@ -2481,7 +2490,7 @@ ul li{
         border-radius: 0px 80px 80px 0px;
         width: 85%;
         height: 280px;
-        margin: auto auto auto;
+        margin: auto auto auto 0;
         position: relative;
     }
     .mobile-mockup-image{
@@ -2582,7 +2591,6 @@ ul li{
 /* ///////////////////////////////////////////////////////////////////////////<-- testimonial --> */
 
 #testimonial{
-    margin: auto;
     background: #ebeced;
     padding-top: 50px;
     height: auto;
@@ -3212,7 +3220,7 @@ ul li{
 
 .footer-bottom{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 30px;
     margin: 15px auto;
@@ -3231,11 +3239,13 @@ ul li{
 }
 .footer-bottom-ul{
     display: flex;
+    justify-content: space-between;
     width: 100%;
     
 }
 .footer-bottom-ul li{
     width: 45%;
+    text-align: end;
     font-size: 15px;
     font-weight: 600;
 }
