@@ -94,7 +94,7 @@ ul li{
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-
+    margin-left: 50px;
 }
 .signing a{
     color: #1F6BFF;
@@ -111,6 +111,9 @@ ul li{
 }
 .sign-up a{
     color: #fff;
+}
+#sidebar-button{
+    display: none;
 }
 /* ------------------------------------------------------------------980px responsive-----Header-----*/
 
@@ -368,14 +371,14 @@ ul li{
         align-items: center;
         justify-content: center;
         margin: 10px  auto;
-        width: 90%;
+        width: 60%;
     }
     .header-logo{
         width: 70%;
         margin: auto;
     }
     .navbar{
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         margin: auto;
@@ -395,7 +398,7 @@ ul li{
         font-size: 10px;
     }
     .signing{
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: space-between;
         font-weight: bold;
@@ -419,7 +422,18 @@ ul li{
     .sign-up a{
         color: #fff;
         padding: 0;
-    }  
+    }
+    .sidebar-button-div{
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    #sidebar-button{
+        display: block;
+    }
 }
 /* ------------------------------------------------------------------360px responsive-----Header-----*/
 @media all and (max-width: 360px) {
@@ -443,14 +457,14 @@ ul li{
         align-items: center;
         justify-content: center;
         margin: 10px  auto;
-        width: 90%;
+        width: 60%;
     }
     .header-logo{
         width: 70%;
         margin: auto;
     }
     .navbar{
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         margin: auto;
@@ -470,7 +484,7 @@ ul li{
         font-size: 8px;
     }
     .signing{
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: space-between;
         font-weight: bold;
@@ -495,7 +509,19 @@ ul li{
     .sign-up a{
         color: #fff;
         padding: 0;
-    }  
+    }
+    
+    .sidebar-button-div{
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    #sidebar-button{
+        display: block;
+    } 
 }
 
 
@@ -1092,6 +1118,7 @@ ul li{
     height: 315px;
     padding: 25px;
     text-align: center;
+    border-radius: 15px;
 }
 .transaction-qrcode{
     width: 80%;
@@ -1438,7 +1465,7 @@ ul li{
         padding: 7px;
     }
     .product-li-bottom{
-        height: 250px;
+        height: 200px;
         padding: 25px;
     }
     .product-li-bottom h5{
@@ -1446,7 +1473,7 @@ ul li{
         margin: 5px 0;
     }
     .product-li-bottom p{
-        font-size: 7px;
+        font-size: 10px;
         color: #898989;
         margin: 13px 0 5px;
     }
@@ -2330,13 +2357,14 @@ ul li{
     }
     .products-three-left{
         width: 85%;
+        margin-left: 0;
     }
     .blue-box{
         background: #1F6BFF;
         border-radius: 0px 80px 80px 0px;
         width: 75%;
         height: 330px;
-        margin: auto auto auto;
+        margin: auto auto auto 0;
         position: relative;
     }
     .mobile-mockup-image{
@@ -2555,7 +2583,8 @@ ul li{
 
 #testimonial{
     margin: auto;
-    background: #d6dbde;
+    background: #ebeced;
+    padding-top: 50px;
     height: auto;
 }
 .container.Testimonial{
@@ -2784,7 +2813,7 @@ ul li{
         margin: 0;
     }
     .profile-detail h6{
-        font-size: 10px;
+        font-size: 8px;
         color: #898989;
         padding: 0;
         margin: 0;
@@ -3375,7 +3404,7 @@ ul li{
     margin: 15px auto;
 }
 .footer-bottom-left{
-    width: 60%;
+    width: 55%;
 }
 .footer-bottom-left p{
     font-size: 11px;
@@ -3384,7 +3413,8 @@ ul li{
 
 }
 .footer-bottom-right{
-    width: 30%;
+    width: 40%;
+    margin: auto;
 }
 .footer-bottom-ul{
     display: flex;
@@ -3789,3 +3819,95 @@ ul li{
     border: none;
 }
 }
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Sidebar --> */
+#SideMenuBar{
+    display: none;
+    width: 400px;
+    height: 100vh;
+}
+.logo-sidebar{
+    margin: 25px auto;
+}
+.sidebar{}
+.sidebar ul{
+    margin: 25px auto;
+}
+.sidebar ul li{
+    margin: 25px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+.sidebar ul li a{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px auto;
+    position: relative;
+}
+.sidebar ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+}
+.sidebar ul li a:hover::after{
+    width: 100%;
+}
+
+.Register{
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Register a{
+    color: #1F6BFF;
+    font-size: 12px;
+}
+.register-sidebar{
+    margin: 25px auto;
+}
+.login-sidebar{   
+    margin: 0 12px;
+    background: #1F6BFF;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.login-sidebar a{
+    color: #fff;
+    font-size: 12px;
+}
+
+
+/* ------------------------------------------------------------------480px responsive-----Sidebar-----*/
+@media all and (max-width: 480px){
+    #SideMenuBar{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -200px;
+        width: 200px;
+        height: 100vh;
+        background: #fff;
+        z-index: 2;
+    }
+    #SideMenuBar.active{
+        left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
